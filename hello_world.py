@@ -9,7 +9,7 @@ full_name = first_name + " " + last_name
 message = "Hello," + full_name.title()  + "!"
 #print(message)
 fruits = "Fruit List of the Day:\n\tOrange\n\tBanana\n\tApple"
-print(fruits)
+#print(fruits)
 fruits = "           Fruits List:\n\tLemon\n\tOrange      "
 #print(fruits)
 fruits = (fruits.rstrip())
@@ -24,6 +24,19 @@ new_line = "Python has a varied List's of Code"
 
 
 calculate = int(1+8*3/2**3)
-print(calculate)
+#print(calculate)
 
-xchange = "Hello"
+#Adding calculations
+
+n1 = 1+4
+n2 = 5**2+2
+n3 = 5+2
+n4=  9+4
+
+print(n1) 
+print(n2)
+print(n3)
+print(n4)
+
+new_word = "My favorite number is " + str(n4) +"!" + " Congrats!"
+print(new_word)
