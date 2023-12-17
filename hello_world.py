@@ -1,3 +1,7 @@
+#2023.12.17 
+#Author:Ceyda Disli
+#Purpose: I aim to learn Python, GitHub 
+
 variable_name= "hello THIS is My Name CEYDA disli"
 #print(variable_name.title())
 #print(variable_name.lower())
@@ -33,10 +37,28 @@ n2 = 5**2+2
 n3 = 5+2
 n4=  9+4
 
-print(n1) 
-print(n2)
-print(n3)
-print(n4)
+#print(n1) 
+#print(n2)
+#print(n3)
+#print(n4)
 
 new_word = "My favorite number is " + str(n4) +"!" + " Congrats!"
-print(new_word)
+#print(new_word)
+
+#import this
+
+list = ['flower','table','cabinet','shoes']
+print(list)
+print(list[0])
+print(list[0].title())
+print(list[-1])
+print(list[-2].lower())
+
+
+customers = ['Ceyda Disli','Berk Disli','Uraz Disli']
+
+print(customers[0])
+print(customers[-1])
+
+print("Dear " + (customers[-1]).title() + "," + 
+                   " You have received a gift. Follow the steps to log in:\n\t*Open your account\n\t*Login your password" )
