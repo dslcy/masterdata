@@ -48,17 +48,47 @@ new_word = "My favorite number is " + str(n4) +"!" + " Congrats!"
 #import this
 
 list = ['flower','table','cabinet','shoes']
-print(list)
-print(list[0])
-print(list[0].title())
-print(list[-1])
-print(list[-2].lower())
+#print(list)
+#print(list[0])
+#print(list[0].title())
+#print(list[-1])
+#print(list[-2].lower())
 
 
 customers = ['Ceyda Disli','Berk Disli','Uraz Disli']
 
-print(customers[0])
-print(customers[-1])
+#print(customers[0])
+#print(customers[-1])
 
-print("Dear " + (customers[-1]).title() + "," + 
-                   " You have received a gift. Follow the steps to log in:\n\t*Open your account\n\t*Login your password" )
+#print("Dear " + (customers[-1]).title() + "," + 
+ #                  " You have received a gift. Follow the steps to log in:\n\t*Open your account\n\t*Login your password" )
+
+#Changing an element's name on the list 
+
+customers[-1]= 'U Disli'
+#print(customers)
+
+
+#append adds values to the end of a list 
+
+mylist = []
+mylist.append('domates')
+mylist.append('peynir')
+mylist.append('yumurta') 
+
+#insert adds values to a position you want and move the other elements one by one. 
+
+mylist.insert(0,'zeytin')
+
+print(mylist)
+
+del mylist[0]
+print(mylist)
+
+
+last = mylist.pop()
+print(last)
+
+print('Kahvaltida en cok sevdigim sey ' + last.title() + "'" +"dir.")
+
+
