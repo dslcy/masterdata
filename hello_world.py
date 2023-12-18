@@ -75,25 +75,40 @@ mylist = []
 mylist.append('domates')
 mylist.append('peynir')
 mylist.append('yumurta') 
+mylist.append('yumurta') 
 
 #insert adds values to a position you want and move the other elements one by one. 
 
 mylist.insert(0,'zeytin')
 
-print(mylist)
+#print(mylist)
 
 del mylist[0]
-print(mylist)
+#print(mylist)
 
 
 last = mylist.pop(1)
-print(last)
+#print(last)
 
 print('Kahvaltida en cok sevdigim sey ' + last.title() + "'" +"dir.")
+
+
+#remove() only removed the first appearence on the list. To remove the others you need to run a loop
 
 
 removed_item = 'yumurta'
 
 mylist.remove(removed_item)
 
-print(mylist)
+#print(mylist)
+
+
+#Inviting people to dinner
+
+guest_list = []
+
+guest_list.append('Zuhal Ugur')
+guest_list.append('Berk Disli')
+guest_list.append('Sadi Ugur')
+
+print(guest_list)
