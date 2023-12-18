@@ -86,9 +86,14 @@ del mylist[0]
 print(mylist)
 
 
-last = mylist.pop()
+last = mylist.pop(1)
 print(last)
 
 print('Kahvaltida en cok sevdigim sey ' + last.title() + "'" +"dir.")
 
 
+removed_item = 'yumurta'
+
+mylist.remove(removed_item)
+
+print(mylist)
