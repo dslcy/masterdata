@@ -90,7 +90,7 @@ del mylist[0]
 last = mylist.pop(1)
 #print(last)
 
-print('Kahvaltida en cok sevdigim sey ' + last.title() + "'" +"dir.")
+#print('Kahvaltida en cok sevdigim sey ' + last.title() + "'" +"dir.")
 
 
 #remove() only removed the first appearence on the list. To remove the others you need to run a loop
@@ -111,4 +111,101 @@ guest_list.append('Zuhal Ugur')
 guest_list.append('Berk Disli')
 guest_list.append('Sadi Ugur')
 
-print(guest_list)
+#print(guest_list)
+
+#print("Dear " + guest_list[0] + ' I invite you to a dinner')
+#print("Dear " + guest_list[1] + ' I invite you to a dinner')
+#print("Dear " + guest_list[2] + ' I invite you to a dinner')
+
+guest_list.remove('Zuhal Ugur')
+guest_list.append('Hande Ugur')
+
+
+#print("Dear " + guest_list[0] + ' I invite you to a dinner')
+#print("Dear " + guest_list[1] + ' I invite you to a dinner')
+#print("Dear " + guest_list[2] + ' I invite you to a dinner')
+
+guest_list.insert(2,'Meral')
+guest_list.insert(0,'Arda')
+guest_list.append('Sare')
+
+#print(guest_list)
+#print("Dear " + guest_list[0].title() + ' We have more space now!')
+#print("Dear " + guest_list[1].title() + ' We have more space now!')
+#print("Dear " + guest_list[2].title() + ' We have more space now!')
+#print("Dear " + guest_list[3].title() + ' We have more space now!')
+#print("Dear " + guest_list[4].title() + ' We have more space now!')
+#print("Dear " + guest_list[5].title() + ' We have more space now!')
+
+#print(guest_list)
+
+
+removed = guest_list.pop(0)
+
+#print('Dear ' + removed + ' Sorry, the table did not arrive on time')
+
+#print(guest_list)
+
+
+
+removed_=guest_list.pop(0)
+
+#print('Dear ' + removed_ + ' Sorry, the table did not arrive on time')
+
+#print(guest_list)
+
+removed__=guest_list.pop(0)
+
+#print('Dear ' + removed__ + ' Sorry, the table did not arrive on time')
+
+#print(guest_list)
+
+removed___=guest_list.pop(0)
+
+#print('Dear ' + removed___ + ' Sorry, the table did not arrive on time')
+
+#print(guest_list)
+
+#print("Dear " + guest_list[0].title() + ' You are still invited!')
+#print("Dear " + guest_list[1].title() + ' You are still invited!')
+
+
+del guest_list[0:2]
+
+#print(guest_list)
+
+
+
+###### New List
+
+cars = []
+
+cars.append('mitsubishi')
+cars.append('honda')
+cars.append('toyota')
+cars.append('volkswagen')
+
+#print(cars)
+cars.sort()
+#print(cars)
+cars.sort(reverse= 'TRUE')
+#print(cars)
+
+#print(sorted(cars))
+#print("Here is the original list again:")
+
+
+
+# Places i want to see
+cities = ['Madrid','Barcelona','Holland','Istanbul']
+print(sorted(cities))
+print(sorted(cities, reverse='TRUE'))
+print(cities)
+
+cities.reverse()
+print(cities)
+
+cities.sort(reverse='TRUE')
+print(cities)
+
+print('I will be travelling ' + str(len(cities))+ ' new places')
