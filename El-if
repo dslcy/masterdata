@@ -1,0 +1,49 @@
+age = 20 
+
+if age < 4:
+    print('You do not need to pay')
+elif 4<age<18: 
+    print('you need to pay 5 euros')
+else: 
+    print('Pay 10 euros')
+
+
+
+if age < 4:
+    price = 0 
+elif age <18:
+    price=5 
+else:
+    price = 10 
+
+print("your admission fee is " + str(price))
+
+
+
+requested_toppings = ['mushrooms', 'extra cheese']
+
+if 'mushrooms' in requested_toppings:
+    print('first topping is added')
+if 'olives' in requested_toppings:
+    print('second topping added')
+if 'extra cheese' in requested_toppings:
+    print('third topping is added')
+
+print('\nYour pizza is ready')
+
+
+alien = 'yellow'
+
+if alien == 'green':
+    print('you just earned 5 points')
+
+
+if alien == 'green':
+    price=5
+elif alien != 'green':
+    price=10
+else: 
+    price= 0 
+
+print('your points' +str(price))
+
