@@ -54,7 +54,7 @@ The expected logic was:
 
 After sorting the data frame, I confirmed whether the timestamps were in the correct chronological order. I first verified the index positions before sorting to ensure they were initially in the correct sequence.
 
-### **Anomalies Detected**
+## **Anomalies Detected**
 After sorting, I noticed some anomalies in the data. Please note that this is just a portion:
 - **User 101:** Made a purchase without logging in first, which suggests missing data.
 - **User 103:** The first recorded action is logging out, followed by adding items to the cart without logging back in.
