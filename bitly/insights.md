@@ -31,7 +31,7 @@ I loaded the dataset using Visual Studio Code and cloned my repository from GitH
 
 - Indexes, cached data, materialized views, and query optimizations can significantly enhance performance.
 
-- I would add some alerts to be able to detect the anomalies in the pipeline.
+- I would add some alerts to be able to detect the anomalies in the pipeline before it even reaches the datawarehouse.
 
 - Adding checks in the ETL process to ensure data accuracy, such as confirming that events occur in chronological order.
 
