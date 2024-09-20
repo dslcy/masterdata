@@ -21,19 +21,19 @@ To begin, I checked the data type of the timestamp, just in case. Then I used da
 I loaded the dataset using Visual Studio Code and cloned my repository from GitHub. Then I saved the result as a CSV, pushed the modifications, and committed them.
 
 ## **How Would You Improve This Pipeline for Production Use?**
-I would not work with CSV files since the real data is too large to load into memory. They are also less secure, more prone to loss, and not ideal for sustainability and accessibility. A data warehouse would be a better solution than CSVs.
+- I would not work with CSV files since the real data is too large to load into memory. They are also less secure, more prone to loss, and not ideal for sustainability and accessibility. A data warehouse would be a better solution than CSVs.
 
-I would absolutely utilize automatic refresh and incremental refreshes. This would result in significant cost savings while also improving performance.
+- I would absolutely utilize automatic refresh and incremental refreshes. This would result in significant cost savings while also improving performance.
 
-I would manage the missing data and ensure that the events were tracked properly and correctly.
+- I would manage the missing data and ensure that the events were tracked properly and correctly.
 
-I would integrate additional data sources to increase data integrity and enrich the dataset.
+- I would integrate additional data sources to increase data integrity and enrich the dataset.
 
-Indexes, cached data, materialized views, and query optimizations can significantly enhance performance.
+- Indexes, cached data, materialized views, and query optimizations can significantly enhance performance.
 
-I would add some alerts to be able to detect the anomalies in the pipeline.
+- I would add some alerts to be able to detect the anomalies in the pipeline.
 
-Adding checks in the ETL process to ensure data accuracy, such as confirming that events occur in chronological order.
+- Adding checks in the ETL process to ensure data accuracy, such as confirming that events occur in chronological order.
 
 ## **Additional Insights:**
 
