@@ -1,0 +1,169 @@
+#prompt= "\nTell me something, and I will repeat it back to you:"
+#prompt += "\nEnter 'quit' to end the program. "
+
+#active = True
+#while active:
+ #   message =input(prompt)
+  #  if message == 'quit':
+  #      active = False
+   # else:
+    #    print(message)
+
+
+#data = '\nTell me the countries you have visited'
+#data += '\nYou can keep me running until you say Quit'
+
+#while True:
+ #   message=input(data)
+
+  #  if message == 'quit':
+   #     break
+   # else: 
+    #    print('Horay! I want to go to ' + message.title())
+
+
+#current_number = 6
+
+#while current_number<10:
+ #   current_number += 1 
+
+  #  if current_number % 2 == 0:
+   #     continue
+   # else:
+    #    print(current_number)
+
+
+
+#promt= '\nTell me which pizza topping you want:'
+#promt += '\nType ok when you are done with your order:'
+
+#while True:
+ #   message = input(promt)
+  #  if message != 'ok':
+   #     print('We will be adding ' + message.title() + ' to your pizza')
+    #else:
+     #   break
+
+
+#promt = '\nTell me your age:'
+#promt += '\nSay stop when you are done\n'
+
+
+#while True:
+ #   message = input(promt)
+  #  if message == 'stop':
+   #     break
+    
+   # if int(message) < 3:
+    #    print('10 dollars')
+   # elif 3<= int(message)< 12:
+    #    print('15 dollars')
+    #else:
+     #   print('20 dollars')
+
+
+
+#prompt = '\nWhat is your salary?:'
+#prompt += '\nI will stop when you say quit:'
+
+#active = True
+
+#while active:
+ #   salary_str = input(prompt)
+  #  if salary_str == 'quit':
+   #     active=False
+   #     break
+   # else:
+    #    salary = float(salary_str)
+    #    if (salary) < 10000:
+    #        print('you are poor')
+     #   elif (salary) < 30000:
+      #      print('you are middle class')
+      #  elif (salary) >= 30000:
+       #     print('you are rich class')
+
+
+#confirmed_users = []
+#unconfirmed_users = ['Candace','Brian','Alice']
+
+#while unconfirmed_users:
+ #   current_user = unconfirmed_users.pop()
+
+  #  print('You are being verified: ' + current_user.title() )
+
+   # confirmed_users.append(current_user)
+
+#print('Here is the list of the confirmed users: \n')
+
+#for confirmed in confirmed_users:
+ #   print(confirmed)
+
+#pets = ['dog', 'cat', 'dog', 'goldfish', 'cat', 'rabbit', 'cat']
+
+#while 'cat' in pets:
+ #   pets.remove('cat')
+
+#print(pets)
+
+
+#responses = {}
+
+#polling_active = True
+
+#while polling_active:
+ #   name = input('\nWhat is your name?: ')
+  #  response = input('\nWould you like to climb to a Mountain someday?: ')
+
+   # responses[name] = response
+
+    #if name != 'quit':
+     #   polling_active = True
+       # name = input('\nWould you like to take another survey?: ')
+      #  if name == 'No':
+       #     break
+
+#for name, mountain in responses.items():
+ #   print('\nThe user name is: ' + name.title() + ' and wants to climb to ' + mountain.title())
+
+
+#sandwich_orders = ['tuna','cheese','tomato','salami','pastrami','pastrami','pastrami']
+#finished_orders = []
+
+#if 'pastrami' in sandwich_orders:
+ #   print('Sorry! We cant make pastrami sandwiches') 
+
+  #  while 'pastrami' in sandwich_orders:
+   #     sandwich_orders.remove('pastrami') 
+    
+
+#while sandwich_orders:
+
+ #   finished_order = sandwich_orders.pop() 
+  #  print(finished_order.title() + ' is getting ready')
+
+
+   # finished_orders.append(finished_order)
+
+#print('\nAll orders are ready: ')
+
+#for finished_order in finished_orders:
+ #   print(finished_order.title())
+
+
+#poll_responses = {}
+#poll_activation = True 
+
+#while poll_activation:
+ #   name = input('\n What is your name')
+  #  response = input('\n What is your dream vacation')
+    
+  #  poll_responses[name] = response 
+    
+    
+   # another_response = input('\nDo you want to collect another response? (yes/no): ')
+   # if another_response != 'yes':
+    #    poll_activation = False
+
+#for name,response in poll_responses.items():
+ #   print('\nThe user ' + name.title() + ' wants to go to ' + response.title()) 
+
